@@ -1,0 +1,19 @@
+{
+  "name": "mytube",
+  "version": "1.0.0",
+  "description": "colne of wetube from nomad",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stupidcoderJung/myTudbe.git"
+  },
+  "author": "jung ji won",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stupidcoderJung/myTudbe/issues"
+  },
+  "homepage": "https://github.com/stupidcoderJung/myTudbe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
