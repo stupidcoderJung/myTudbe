@@ -2,7 +2,7 @@
   "name": "mytube",
   "version": "1.0.0",
   "description": "colne of wetube from nomad",
-  "main": "index.js",
+  "main": "init.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stupidcoderJung/myTudbe.git"
@@ -14,9 +14,19 @@
   },
   "homepage": "https://github.com/stupidcoderJung/myTudbe#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
